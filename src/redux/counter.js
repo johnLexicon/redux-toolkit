@@ -7,9 +7,15 @@ export const counterSlice = createSlice({
   },
   // Redux Toolkit allows to mutate state in reducers, it uses the Immer library in the background
   reducers: {
-    increment: (state) => state.count + 1,
-    decrement: (state) => state.count - 1,
-    incrementByAmount: (state, action) => state.count + action.payload
+    increment: (state) => {
+      state.count += 1;
+    },
+    decrement: (state) => {
+      state.count -= 1;
+    },
+    incrementByAmount: (state, action) => {
+      state.count += action.payload;
+    }
   }
 });
 
