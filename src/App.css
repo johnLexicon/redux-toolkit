@@ -1,0 +1,20 @@
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.buttons-wrapper {
+  margin: 0.4rem 0;
+}
+button {
+  margin-right: 0.4rem;
+}
